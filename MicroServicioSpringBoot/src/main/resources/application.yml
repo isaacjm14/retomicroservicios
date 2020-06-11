@@ -1,6 +1,6 @@
 #Configuración de la aplicacion
 server: 
-  port: 8091
+  port: 8091  address: 0.0.0.0
 
 #Para ver la consola de H2 en el browser
 #http://localhost:8091/h2-console
@@ -35,5 +35,5 @@ spring:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
- 
+
   
